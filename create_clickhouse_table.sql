@@ -4,7 +4,6 @@ CREATE TABLE default.vklikes (
   itemId Int64,
   postId Int64,
   itemType String,
-  likerId Int64,
   ctime Int64
 ) ENGINE = MergeTree();
 
