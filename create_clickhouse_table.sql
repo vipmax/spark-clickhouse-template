@@ -5,7 +5,7 @@ CREATE TABLE default.vklikes (
   postId Int64,
   itemType String,
   ctime Int64
-) ENGINE = MergeTree();
+) ENGINE = Memory();
 
 INSERT INTO default.vklikes  values (1,2,'post',5);
 
